@@ -16,7 +16,6 @@ figure = px.scatter(
     y=df[y],
     labels={"x": x.replace("_", " ").upper(), "y": y.replace("_", " ").upper()}
 )
-
 st.plotly_chart(figure)
 
 st.text("Note: There seems to be a correlation between happiness and social support. I find that interesting and very telling. I hope you enjoy this simple web app!")
